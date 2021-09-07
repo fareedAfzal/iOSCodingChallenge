@@ -2,7 +2,7 @@
 //  iOSCodingChallengeTests.swift
 //  iOSCodingChallengeTests
 //
-//  Created by Hamza Iqbal on 06/09/2021.
+//  Created by Farid Afzal on 06/09/2021.
 //
 
 import XCTest

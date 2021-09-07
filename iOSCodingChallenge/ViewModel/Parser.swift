@@ -2,13 +2,12 @@
 //  Parser.swift
 //  iOSCodingChallenge
 //
-//  Created by Hamza Iqbal on 06/09/2021.
+//  Created by Farid Afzal on 06/09/2021.
 //
 
 import Foundation
 
 class Parser {
-    weak var vc: ViewController?
     var arrPhotos = [Photo]()
     func parse(completion : @escaping ([Photo]) -> ()) {
         let reachability = try! Reachability.init()
