@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		19E8DF1C8959C3D52011DDE5 /* libPods-iOSCodingChallenge-iOSCodingChallengeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91173962B1FAD257619E183A /* libPods-iOSCodingChallenge-iOSCodingChallengeUITests.a */; };
+		C622099C26E708FE0010A23C /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C622099B26E708FE0010A23C /* Reachability.swift */; };
 		C6C3CAD726E627F70015B5A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3CAD626E627F70015B5A6 /* AppDelegate.swift */; };
 		C6C3CAD926E627F70015B5A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3CAD826E627F70015B5A6 /* SceneDelegate.swift */; };
 		C6C3CADB26E627F70015B5A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3CADA26E627F70015B5A6 /* ViewController.swift */; };
@@ -19,7 +20,6 @@
 		C6C3CB0826E62B7E0015B5A6 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3CB0726E62B7E0015B5A6 /* Photos.swift */; };
 		C6C3CB0B26E62D1E0015B5A6 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3CB0A26E62D1E0015B5A6 /* Parser.swift */; };
 		C6C3CB0F26E64B700015B5A6 /* photoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3CB0E26E64B700015B5A6 /* photoTableViewCell.swift */; };
-		C6C3CB2F26E6A80C0015B5A6 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3CB2E26E6A80C0015B5A6 /* Reachability.swift */; };
 		C6C3CB3126E6BFFE0015B5A6 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3CB3026E6BFFE0015B5A6 /* PhotoViewController.swift */; };
 		CEA2DE419F54EAAD288CE7EF /* libPods-iOSCodingChallengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B2A8B755D1A5703DA1B476 /* libPods-iOSCodingChallengeTests.a */; };
 		F4D3CF931189AB82B7D40948 /* libPods-iOSCodingChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7AA01968C0BDBE92F90908B /* libPods-iOSCodingChallenge.a */; };
@@ -51,6 +51,7 @@
 		A5D219ACAE8094C74B621DCB /* Pods-iOSCodingChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSCodingChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-iOSCodingChallengeTests/Pods-iOSCodingChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
 		B6A95EE1F5B6BAD13C824783 /* Pods-iOSCodingChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSCodingChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-iOSCodingChallengeTests/Pods-iOSCodingChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7AA01968C0BDBE92F90908B /* libPods-iOSCodingChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSCodingChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C622099B26E708FE0010A23C /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		C6C3CAD326E627F70015B5A6 /* iOSCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6C3CAD626E627F70015B5A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6C3CAD826E627F70015B5A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,7 +69,6 @@
 		C6C3CB0726E62B7E0015B5A6 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
 		C6C3CB0A26E62D1E0015B5A6 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		C6C3CB0E26E64B700015B5A6 /* photoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoTableViewCell.swift; sourceTree = "<group>"; };
-		C6C3CB2E26E6A80C0015B5A6 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = ../../../Reachability.swift; sourceTree = "<group>"; };
 		C6C3CB3026E6BFFE0015B5A6 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		F54B69AC3F55F4C913288B89 /* Pods-iOSCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSCodingChallenge.debug.xcconfig"; path = "Target Support Files/Pods-iOSCodingChallenge/Pods-iOSCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -205,7 +205,7 @@
 		C6C3CB2D26E6A7F80015B5A6 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				C6C3CB2E26E6A80C0015B5A6 /* Reachability.swift */,
+				C622099B26E708FE0010A23C /* Reachability.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -425,13 +425,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6C3CB2F26E6A80C0015B5A6 /* Reachability.swift in Sources */,
 				C6C3CB0F26E64B700015B5A6 /* photoTableViewCell.swift in Sources */,
 				C6C3CB0826E62B7E0015B5A6 /* Photos.swift in Sources */,
 				C6C3CADB26E627F70015B5A6 /* ViewController.swift in Sources */,
 				C6C3CB0B26E62D1E0015B5A6 /* Parser.swift in Sources */,
 				C6C3CB3126E6BFFE0015B5A6 /* PhotoViewController.swift in Sources */,
 				C6C3CAD726E627F70015B5A6 /* AppDelegate.swift in Sources */,
+				C622099C26E708FE0010A23C /* Reachability.swift in Sources */,
 				C6C3CAD926E627F70015B5A6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
