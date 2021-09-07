@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		19E8DF1C8959C3D52011DDE5 /* libPods-iOSCodingChallenge-iOSCodingChallengeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91173962B1FAD257619E183A /* libPods-iOSCodingChallenge-iOSCodingChallengeUITests.a */; };
-		C622099C26E708FE0010A23C /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C622099B26E708FE0010A23C /* Reachability.swift */; };
+		C67D79AC26E70E1B001B7530 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67D79AB26E70E1B001B7530 /* Reachability.swift */; };
 		C6C3CAD726E627F70015B5A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3CAD626E627F70015B5A6 /* AppDelegate.swift */; };
 		C6C3CAD926E627F70015B5A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3CAD826E627F70015B5A6 /* SceneDelegate.swift */; };
 		C6C3CADB26E627F70015B5A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3CADA26E627F70015B5A6 /* ViewController.swift */; };
@@ -51,7 +51,7 @@
 		A5D219ACAE8094C74B621DCB /* Pods-iOSCodingChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSCodingChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-iOSCodingChallengeTests/Pods-iOSCodingChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
 		B6A95EE1F5B6BAD13C824783 /* Pods-iOSCodingChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSCodingChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-iOSCodingChallengeTests/Pods-iOSCodingChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7AA01968C0BDBE92F90908B /* libPods-iOSCodingChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSCodingChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C622099B26E708FE0010A23C /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		C67D79AB26E70E1B001B7530 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		C6C3CAD326E627F70015B5A6 /* iOSCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6C3CAD626E627F70015B5A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6C3CAD826E627F70015B5A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -205,7 +205,7 @@
 		C6C3CB2D26E6A7F80015B5A6 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				C622099B26E708FE0010A23C /* Reachability.swift */,
+				C67D79AB26E70E1B001B7530 /* Reachability.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -431,7 +431,7 @@
 				C6C3CB0B26E62D1E0015B5A6 /* Parser.swift in Sources */,
 				C6C3CB3126E6BFFE0015B5A6 /* PhotoViewController.swift in Sources */,
 				C6C3CAD726E627F70015B5A6 /* AppDelegate.swift in Sources */,
-				C622099C26E708FE0010A23C /* Reachability.swift in Sources */,
+				C67D79AC26E70E1B001B7530 /* Reachability.swift in Sources */,
 				C6C3CAD926E627F70015B5A6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
